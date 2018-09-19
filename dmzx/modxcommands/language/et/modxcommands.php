@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @package MODX commands
 * @author dmzx (www.dmzx-web.net)
@@ -35,24 +36,24 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-			'MODX_FIND'				 => 'Find',
-			'MODX_ADD_AFTER'			=> 'Add after',
-			'MODX_ADD_BEFORE'			=> 'Add before',
-			'MODX_REPLACE_WITH'		 => 'Replace with',
-			'MODX_DELETE'				=> 'Delete',
-			'MODX_IN_LINE_FIND'		 => 'In line find',
-			'MODX_IN_LINE_ADD_AFTER'	=> 'In line add after',
-			'MODX_IN_LINE_ADD_BEFORE'	=> 'In line add before',
-			'MODX_IN_LINE_REPLACE_WITH' => 'In line replace with',
-			'MODX_CMD'					=> 'MODx command',
-			'BBCODE21_FIND'			 => '[b]Find[/b] [i][size=85]This may be a partial find and not the whole line[/size][/i]',
-			'BBCODE21_AFTER'			=> '[b][color=#008000]Add after[/color][/b] [i][size=85]Add these lines on a new blank line after the preceding line(s) to find[/size][/i]',
-			'BBCODE21_BEFORE'			=> '[b][color=#BF0080]Add before[/color][/b] [i][size=85]Add these lines on a new blank line before the preceding line(s) to find[/size][/i]',
-			'BBCODE21_REPLACE'			=> '[b][color=#BF0000]Replace with[/b][/color] [i][size=85]Replace the preceding lines with the following[/size][/i]',
-			'BBCODE21_DELETE'			=> '[b][color=#FF0000]Delete[/b][/color] [i][size=85]Remove the preceding lines[/size][/i]',
-			'BBCODE21_INFIND'			=> '[b][color=#BF0080]In line find[/b][/color] [i][size=85]This is a partial match of a line for in-line operations[/size][/i]',
-			'BBCODE21_INAFTER'			=> '[b][color=#BF0080]In line add after[/b][/color]',
-			'BBCODE21_INBEFORE'		 => '[b][color=#BF0080]In line add before[/b][/color]',
-			'BBCODE21_INREPLACE'		=> '[b][color=#BF0080]In line replace with[/b][/color]',
+			'MODX_FIND'				 => 'Leia',
+			'MODX_ADD_AFTER'			=> 'Lisa pärast',
+			'MODX_ADD_BEFORE'			=> 'Lisa enne',
+			'MODX_REPLACE_WITH'		 => 'Asenda',
+			'MODX_DELETE'				=> 'Kustuta',
+			'MODX_IN_LINE_FIND'		 => 'Otsi rida',
+			'MODX_IN_LINE_ADD_AFTER'	=> 'Peale seda järgmisele reale lisa',
+			'MODX_IN_LINE_ADD_BEFORE'	=> 'Enne seda rida lisa',
+			'MODX_IN_LINE_REPLACE_WITH' => 'Asenda rida',
+			'MODX_CMD'					=> 'MODx käsk',
+			'BBCODE21_FIND'			 => '[b]Leia[/b] [i][size=85]See võib olla osaline leid, mitte kogu rida[/size][/i]',
+			'BBCODE21_AFTER'			=> '[b][color=#008000]Lisa pärast[/color][/b] [i][size=85]Lisage need read uuele tühjale reale pärast seda, kui olete leidnud eelmise rea(d)[/size][/i]',
+			'BBCODE21_BEFORE'			=> '[b][color=#BF0080]Lisa enne[/color][/b] [i][size=85]Lisage need read uuele tühjale reale enne eelmist rida(de)[/size][/i]',
+			'BBCODE21_REPLACE'			=> '[b][color=#BF0000]Asenda[/b][/color] [i][size=85]Asenda eelmised read järgmisega[/size][/i]',
+			'BBCODE21_DELETE'			=> '[b][color=#FF0000]Kustuta[/b][/color] [i][size=85]Eemalda eelmised read[/size][/i]',
+			'BBCODE21_INFIND'			=> '[b][color=#BF0080]Otsi rida[/b][/color] [i][size=85]See on rida toimingute osaline vaste[/size][/i]',
+			'BBCODE21_INAFTER'			=> '[b][color=#BF0080]Peale seda järgmisele reale lisa[/b][/color]',
+			'BBCODE21_INBEFORE'		 => '[b][color=#BF0080]Enne seda rida lisa[/b][/color]',
+			'BBCODE21_INREPLACE'		=> '[b][color=#BF0080]Asenda rida[/b][/color]',
 
 ));
